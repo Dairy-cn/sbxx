@@ -2,7 +2,7 @@ package main.sbxx.designpattern.singleton;
 
 /**
  * @author Dair
- * @since
+ * @since h
  */
 public class Singleton {
 	
