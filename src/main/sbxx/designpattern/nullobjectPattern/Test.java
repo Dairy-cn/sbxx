@@ -23,7 +23,6 @@ public class Test {
 		System.out.println(abstractCustomer2.getName());
 		System.out.println(abstractCustomer3.getName());
 		System.out.println(abstractCustomer4.getName());
-		Optional
 		
 	}
 }
