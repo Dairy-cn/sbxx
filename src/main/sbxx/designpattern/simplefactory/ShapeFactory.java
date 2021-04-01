@@ -1,6 +1,4 @@
-package main.sbxx.designpattern.factory;
-
-import java.awt.print.Pageable;
+package main.sbxx.designpattern.simplefactory;
 
 /**
  * @author Dair
