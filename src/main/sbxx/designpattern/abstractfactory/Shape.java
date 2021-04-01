@@ -1,4 +1,4 @@
-package main.sbxx.designpattern.factory;
+package main.sbxx.designpattern.abstractfactory;
 
 /**
  * @author Dair

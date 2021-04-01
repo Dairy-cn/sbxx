@@ -1,10 +1,10 @@
-package main.sbxx.designpattern.factory;
+package main.sbxx.designpattern.abstractfactory;
 
 /**
  * @author Dair
  * @since
  */
-public class Square implements Shape{
+public class Square implements Shape {
 	
 	
 	@Override

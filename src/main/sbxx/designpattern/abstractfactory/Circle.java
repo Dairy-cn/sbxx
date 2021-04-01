@@ -1,10 +1,10 @@
-package main.sbxx.designpattern.factory;
+package main.sbxx.designpattern.abstractfactory;
 
 /**
  * @author Dair
  * @since
  */
-public class Circle  implements Shape{
+public class Circle  implements Shape {
 	
 	
 	@Override
