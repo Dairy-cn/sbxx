@@ -24,6 +24,7 @@ public class Test {
 		System.out.println("John is male? " + maleExpression.interpret("John"));
 		System.out.println("Julie is a married women? "
 				+ marriedWomanExpression.interpret("Married Julie"));
+	
 	}
 	
 }
