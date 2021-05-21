@@ -6,6 +6,9 @@ package main.sbxx.designpattern.vistor;
  */
 public class Test {
 	
+	
+	
+	
 	public static void main(String[] args) {
 		ObjectStructure objectStructure=new ObjectStructure();
 		Hero zhuang=new ZhuangHero();
