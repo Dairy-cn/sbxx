@@ -2,6 +2,7 @@ package main.sbxx.netty.demo1;
 
 
 import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 
@@ -22,6 +23,8 @@ public class DiscardServerHander extends ChannelInboundHandlerAdapter {
 //		}finally {
 //			msg1.release();
 //		}
+		ByteBuf byteBuf = (ByteBuf) msg;
+		byteBuf.readByte();
 		ctx.write(msg);
 		ctx.flush();
 	}
