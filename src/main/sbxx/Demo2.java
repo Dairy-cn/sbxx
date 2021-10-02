@@ -1,5 +1,7 @@
 package main.sbxx;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.PriorityQueue;
 
 /**
@@ -8,20 +10,10 @@ import java.util.PriorityQueue;
  */
 public class Demo2 {
 	
-	
+	private static  int x=100;
 	public static void main(String[] args) {
-		int[] arr = new int[]{2, 1, 7, 4, 3, 9, 5};
-//		headSort(arr);
-//		for (int i : arr) {
-//			System.out.println("-------" + i);
-//		}
-		PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
-		for (int i = 0; i <arr.length ; i++) {
-			priorityQueue.add(arr[i]);
-		}
-		while (!priorityQueue.isEmpty()){
-			System.out.println(priorityQueue.poll());
-		}
+		List<String> s=Arrays.asList("123");
+	
 	}
 	
 	private static void mergeSort(int[] arr, int low, int high, int[] temp) {
